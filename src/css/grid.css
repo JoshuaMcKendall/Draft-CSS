@@ -1,0 +1,83 @@
+/*********************************************
+* GRID CSS
+*********************************************/
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto; }
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px; } }
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px; } }
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px; } }
+
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+
+.row, .column {
+  box-sizing: border-box; }
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px; }
+
+.row:before,
+.row:after {
+  content: " ";
+  display: table; }
+
+.row:after {
+  clear: both; }
+
+.column, .col {
+  padding-right: 15px;
+  padding-left: 15px;
+  position: relative;
+  float: left; }
+
+.col-xs-1 {
+  width: 8.33333333%; }
+
+.col-xs-2 {
+  width: 16.66666667%; }
+
+.col-xs-3 {
+  width: 25%; }
+
+.col-xs-4 {
+  width: 33.33333333%; }
+
+.col-xs-5 {
+  width: 41.66666667%; }
+
+.col-xs-6 {
+  width: 50%; }
+
+.col-xs-7 {
+  width: 57.6666666667%; }
+
+.col-xs-8 {
+  width: 66.1333333333%; }
+
+.col-xs-9 {
+  width: 74.6%; }
+
+.col-xs-10 {
+  width: 83.0666666667%; }
+
+.col-xs-11 {
+  width: 91.5333333333%; }
+
+.col-xs-12 {
+  width: 100%; }

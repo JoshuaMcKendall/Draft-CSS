@@ -1,0 +1,76 @@
+/*********************************************
+* RESET CSS
+*********************************************/
+
+*
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html
+{
+	font-family: sans-serif;
+}
+
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol, li, dl, dt, dd, form, a, fieldset, input, th, td
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	font-size: 100%;
+	padding: .6em 0;
+	margin: 0 15px;
+}
+
+p
+{
+	font-size: 20px;
+	line-height: 1.3em;
+	margin: 0;
+}
+
+body
+{
+	line-height: 1;
+}
+
+ul, ol
+{
+	list-style: none;
+}
+
+::-moz-focus-inner
+{
+	border: 0;
+}
+
+img
+{
+	border: 0;
+}
+
+:before,:after
+{
+	box-sizing: border-box;
+}
+
+html
+{
+	font-size: 15px;
+}
+
+body
+{
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.4;
+	color: #333;
+	background-color: #fff;
+}
